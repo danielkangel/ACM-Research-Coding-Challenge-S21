@@ -4,7 +4,7 @@
 
 Prior to this challenge, I had never worked with a genbank file before. I became familiar with the format through an [annotated file](https://www.ncbi.nlm.nih.gov/genbank/samplerecord/#CDSB) first.
 
-Aditionally, I looked at standard circular genome diagrams to get an idea for what I will be creating.
+Additionally, I looked at standard circular genome diagrams to get an idea for what I will be creating.
 
 ## GenomeDiagram from Biopython
 
