@@ -12,7 +12,7 @@ I chose the GenomeDiagram subpackage from Biopython to create my diagram due to 
 
 ## My Solution
 
-I created a basic circular diagram by parsing the genbank file, establishing a track for the diagram with an associated feature set, and reading in the gene data into the feature set.
+I created a basic circular diagram by parsing the genbank file, establishing a track for the diagram with an associated feature set, and reading the gene data into the feature set.
 
 After I implemented a basic circular diagram, I noticed that the levels were wrong. Data was overlapping in the diagram, thus making it hard to view the start and endpoints. I created a new track in the diagram and added colors to further differentiate the data. 
 
