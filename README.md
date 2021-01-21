@@ -12,7 +12,7 @@ I chose the GenomeDiagram subpackage from Biopython to create my diagram due to 
 
 ## My Solution
 
-I created a basic circular diagram by parsing the genbank file, establishing a track for the diagram with an associated feature set, and reading the gene data into the feature set.
+I created a basic circular diagram by parsing the genbank file, establishing a track for the diagram with an associated feature set, and reading the gene data into the feature set from the genbank file. Biopython then drew the basic circular diagram.
 
 After I implemented a basic circular diagram, I noticed that the levels were wrong. Data was overlapping in the diagram, thus making it hard to view the start and endpoints. I created a new track in the diagram and added colors to further differentiate the data. 
 
@@ -20,3 +20,8 @@ After I implemented a basic circular diagram, I noticed that the levels were wro
 
 ![Tomato curly stunt virus circular diagram](tomato_curly_stunt_virus.png)
 
+## Resources Used
+
+GenBank file information: https://www.ncbi.nlm.nih.gov/genbank/samplerecord/#CDSB
+Biopython documentation: https://biopython.org/docs/dev/api/Bio.Graphics.GenomeDiagram.html#module-Bio.Graphics.GenomeDiagram
+Biopython tutorial: http://biopython.org/DIST/docs/tutorial/Tutorial.html#sec336
