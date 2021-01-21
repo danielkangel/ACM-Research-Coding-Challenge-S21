@@ -22,6 +22,6 @@ After I implemented a basic circular diagram, I noticed that the levels were wro
 
 ## Resources Used
 
-GenBank file information: https://www.ncbi.nlm.nih.gov/genbank/samplerecord/#CDSB
-Biopython documentation: https://biopython.org/docs/dev/api/Bio.Graphics.GenomeDiagram.html#module-Bio.Graphics.GenomeDiagram
-Biopython tutorial: http://biopython.org/DIST/docs/tutorial/Tutorial.html#sec336
+- GenBank file information: https://www.ncbi.nlm.nih.gov/genbank/samplerecord/#CDSB
+- Biopython documentation: https://biopython.org/docs/dev/api/Bio.Graphics.GenomeDiagram.html#module-Bio.Graphics.GenomeDiagram
+- Biopython tutorial: http://biopython.org/DIST/docs/tutorial/Tutorial.html#sec336
