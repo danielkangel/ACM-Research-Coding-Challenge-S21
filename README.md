@@ -18,13 +18,13 @@ After I implemented a basic circular diagram, I noticed that the levels were wro
 
 ## Additions
 
-I revisted this challenge due to being unsatisfied with my initial solution. My initial solution is still in the repository (old_diagram.png).
+I revisted this challenge due to being unsatisfied with my initial solution. My initial solution is still in the repository ([old_diagram.png](old_diagram.png)).
 
-I was not satisfied with my original solution due to two reasons. First, there was no scale in my diagram, so the size of each gene was ambiguous. Secondly, it showed genes that are overlapping on two different tracks. Although I liked the clarity that came with spreading out the overlapping genes, I wanted to also represent what the overlapping genome looked like.
+I was not satisfied with my original solution due to two reasons. First, there was no scale in my diagram, so the size of each gene was ambiguous. Secondly, it showed genes that are overlapping on two different tracks. Although I liked the clarity that came with spreading out the overlapping genes, I also wanted to represent what the overlapping genome looked like.
 
-I first decided to represent the overlapping genome by adding a new center track. I then added features to the track based on a counter variable. Since the first two genes pointed in the same direction, they got the same color. The same process happens with the last three genes, but with a different distinguishing color.
+I first decided to represent the overlapping genome by adding a new center track. I then added features to the track based on a counter variable. Since the first two genes pointed in the same direction, they got the same color. The same process happenened with the last three genes, but with a different distinguishing color.
 
-I then added the outside labels to the diagram. I added a new track and set the label size. I was initially going to use biopython to show the units in kilo base pairs, but I stayed with the default labels instead due to the genome size.
+I then added the outside labels to the diagram. I added a new track and set the label size. I was initially going to use biopython to show the units in kilo base pairs, but I stayed with the default labels instead due to the small genome size.
 
 Finally, I did some basic reformatting to make the diagram look prettier.
 
