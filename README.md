@@ -26,7 +26,7 @@ I first decided to represent the overlapping genome by adding a new center track
 
 I then added the outside labels to the diagram. I added a new track and set the label size. I was initially going to use biopython to show the units in kilo base pairs, but I stayed with the default labels instead due to the small genome size.
 
-Finally, I did some basic reformatting to make the diagram look prettier.
+Finally, I did some basic reformatting such as adding a blank spacer track after the center for easier readability of labels.
 
 ## Diagram
 
